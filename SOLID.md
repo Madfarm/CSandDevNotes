@@ -17,7 +17,7 @@ D - Dependency Inversion Principle
 # Interface Segregation
 Objects should only depend upon methods they're going to use
 
-bre
+break up massive interfaces into multiple smaller interfaces
 
 
 # Dependency Inversio
