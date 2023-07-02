@@ -9,7 +9,19 @@ D - Dependency Inversion Principle
 
 
 # Open Closed 
+"Software entities such as classes, modules, functions, etc. should be open for extension but closed for modification"
 
+new functionality should be implemented by adding new classes, attributes, and methods instead of modifying existing ones
+
+> Implementation Guidelines
+- simplest implementation of Open Closed Principle is derived classes
+
+> If OCP is not used
+-  End up testing entire functionality along with the new requirement
+-  QA Team need to test the entire flow
+-  Costly for the org
+-  Breaks the single responsibility principle
+-  Harder to maintain classes
 
 # Liskov Substitution
 
