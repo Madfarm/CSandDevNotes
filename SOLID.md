@@ -26,6 +26,8 @@ new functionality should be implemented by adding new classes, attributes, and m
 # Liskov Substitution
 Objects of a superclass should be replaceable with objects of its subclasses without breaking anything
 
+basically the subclass must be a valid object of the super clas
+
 # Interface Segregation
 Objects should only depend upon methods they're going to use
 
