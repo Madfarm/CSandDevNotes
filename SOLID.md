@@ -36,3 +36,8 @@ break up massive interfaces into multiple smaller interfaces
 
 # Dependency Inversion
 High-level modules should not depend on low-level modules. Both should depend on abstractions
+
+
+Details should depende on the abstractions not the inverse
+
+> The interaction between high level and low level modules should be thought of as a abstract interaction between them
