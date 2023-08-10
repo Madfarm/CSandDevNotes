@@ -34,4 +34,5 @@ Objects should only depend upon methods they're going to use
 break up massive interfaces into multiple smaller interfaces
 
 
-# Dependency Inversio
+# Dependency Inversion
+High-level modules should not depend on low-level modules. Both should depend on abstractions
