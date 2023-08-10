@@ -46,3 +46,5 @@ Details should depende on the abstractions not the inverse
 Store -------> Payment Processor <---- Stripe API
 
 Store is dependent on Stripe API for payment processing
+
+By having a payment processor interface between the two it becomes elementary to integrate a different payment processing api
