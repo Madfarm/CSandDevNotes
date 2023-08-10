@@ -43,6 +43,6 @@ Details should depende on the abstractions not the inverse
 > The interaction between high level and low level modules should be thought of as a abstract interaction between them
 
 
-Store -------> Stripe API
+Store -------> Payment Processor <---- Stripe API
 
 Store is dependent on Stripe API for payment processing
